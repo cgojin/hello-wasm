@@ -1,0 +1,16 @@
+[package]
+name = "rust-on-browser"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jin Gong<gongjin21@hotmail.com>"]
+description = "Running Rust on Browser, Calling Rust from Javascript, Rust to WebAssembly (WASM) example"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/cgojin/rust-on-browser"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
