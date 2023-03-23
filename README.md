@@ -25,6 +25,21 @@ cd pkg
 npm publish --access=public
 ```
 
+## Running example (vite)
+
+```sh
+cd site-vite
+
+# Installing dependencies first
+npm install
+
+# Start http server
+npm run dev
+
+# Building
+npm run build
+```
+
 ## Running example (webpack)
 
 ```sh
